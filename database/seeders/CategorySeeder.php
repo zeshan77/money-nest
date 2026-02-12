@@ -54,14 +54,15 @@ class CategorySeeder extends Seeder
                 'color' => 'red',
             ],
             [
-                'name' => 'Bill',
-                'slug' => 'bill',
+                'name' => 'Bills',
+                'slug' => 'bills',
                 'icon' => 'receipt-text',
                 'color' => 'yellow',
                 'children' => [
                     ['name' => 'Internet', 'slug' => 'internet', 'icon' => 'wifi', 'color' => 'yellow'],
                     ['name' => 'Electricity', 'slug' => 'electricity', 'icon' => 'plug', 'color' => 'yellow'],
                     ['name' => 'Water', 'slug' => 'water', 'icon' => 'droplet', 'color' => 'yellow'],
+                    ['name' => 'Mobile', 'slug' => 'mobile', 'icon' => 'card-sim', 'color' => 'purple'],
                 ],
             ],
             [
