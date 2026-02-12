@@ -11,6 +11,7 @@ interface Props {
 }
 
 export default function ExpensesIndex({ expenses }: Props) {
+    console.log('consoling expenses', expenses);
     return (
         <AppLayout>
             <Head title="My Expenses" />

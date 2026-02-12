@@ -46,10 +46,10 @@ export default function DailySpendingChart({ data, title = 'Daily Spending (Last
                         <YAxis
                             fontSize={12}
                             tickLine={false}
-                            tickFormatter={(value) => `$${value}`}
+                            tickFormatter={(value) => `PKR ${value}`}
                         />
                         <Tooltip
-                            formatter={(value: number) => [`$${value.toFixed(2)}`, 'Total']}
+                            formatter={(value: number) => [`PKR ${value.toFixed(2)}`, 'Total']}
                         />
                         <Area
                             type="monotone"

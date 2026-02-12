@@ -69,7 +69,7 @@ export default function ExpenseTable({ expenses, showActions = false }: ExpenseT
                                 )}
                             </TableCell>
                             <TableCell className="text-right font-semibold">
-                                ${parseFloat(expense.amount).toFixed(2)}
+                               PKR {parseFloat(expense.amount).toFixed(2)}
                             </TableCell>
                             {showActions && (
                                 <TableCell className="text-right">

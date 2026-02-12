@@ -59,7 +59,7 @@ export default function CategoryPieChart({ data, title = 'Spending by Category' 
                             ))}
                         </Pie>
                         <Tooltip
-                            formatter={(value: number) => [`$${value.toFixed(2)}`, 'Amount']}
+                            formatter={(value: number) => [`PKR ${value.toFixed(2)}`, 'Amount']}
                         />
                         <Legend />
                     </PieChart>

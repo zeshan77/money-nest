@@ -40,7 +40,7 @@ export default function FamilyIndex({
                 {/* Family total */}
                 <SummaryCard
                     label="Family Total (This Month)"
-                    value={`$${familyMonthTotal.toFixed(2)}`}
+                    value={`PKR ${familyMonthTotal.toFixed(2)}`}
                     icon={CalendarRange}
                 />
 
@@ -66,7 +66,7 @@ export default function FamilyIndex({
                                     <div>
                                         <p className="font-semibold">{member.name}</p>
                                         <p className="text-sm text-gray-500">
-                                            ${member.monthTotal.toFixed(2)} this month
+                                            PKR {member.monthTotal.toFixed(2)} this month
                                         </p>
                                     </div>
                                 </CardContent>

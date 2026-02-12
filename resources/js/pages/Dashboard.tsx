@@ -16,7 +16,7 @@ interface Props {
 }
 
 function formatCurrency(value: number): string {
-    return `$${value.toFixed(2)}`;
+    return `PKR ${value.toFixed(2)}`;
 }
 
 export default function Dashboard({

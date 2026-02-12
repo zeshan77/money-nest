@@ -44,7 +44,7 @@ export default function MemberDetail({
 
                 <SummaryCard
                     label="Monthly Total"
-                    value={`$${monthTotal.toFixed(2)}`}
+                    value={`PKR ${monthTotal.toFixed(2)}`}
                     icon={CalendarRange}
                 />
 

@@ -42,10 +42,10 @@ export default function MemberComparisonChart({ data, title = 'Member Comparison
                         <YAxis
                             fontSize={12}
                             tickLine={false}
-                            tickFormatter={(value) => `$${value}`}
+                            tickFormatter={(value) => `PKR ${value}`}
                         />
                         <Tooltip
-                            formatter={(value: number) => [`$${value.toFixed(2)}`, 'Total']}
+                            formatter={(value: number) => [`PKR ${value.toFixed(2)}`, 'Total']}
                         />
                         <Bar dataKey="total" fill="#16a34a" radius={[4, 4, 0, 0]} />
                     </BarChart>
